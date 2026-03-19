@@ -9,9 +9,10 @@ class PaulMcCartney extends Vocalist
 {
 
     use SongwriterTrait;
+    
     public function introduce()
     {
         // Paul's intro message
-        echo "<p>Good evening everyone! How are you?, I am Paul. Nice to see you tonight at the show!</p>";
+        echo "<p>Good evening everyone! How are you? I am Paul. Nice to see you tonight at the show!</p>";
     }
 }
